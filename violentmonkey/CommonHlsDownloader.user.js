@@ -5,8 +5,8 @@
 // @version 2.2.2
 // @match *://*/*
 // @require https://unpkg.com/ajax-hook@2.0.0/dist/ajaxhook.min.js
-// @require https://cdn.bootcdn.net/ajax/libs/draggabilly/2.3.0/draggabilly.pkgd.min.js
-// @resource sweetalert2 https://cdn.bootcdn.net/ajax/libs/limonte-sweetalert2/8.11.8/sweetalert2.all.min.js
+// @require https://cdnjs.cloudflare.com/ajax/libs/draggabilly/2.3.0/draggabilly.pkgd.min.js
+// @resource sweetalert2 https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/8.11.8/sweetalert2.all.min.js
 // @run-at document-start
 // @grant GM_xmlhttpRequest
 // @grant GM_getResourceText
@@ -224,7 +224,7 @@ function prepare() {
       style: 'visibility:hidden;height:0;width:0;', 
       appendToBody: true,
     });
-    $.addStyle('https://cdn.bootcdn.net/ajax/libs/font-awesome/4.0.0/css/font-awesome.min.css');
+    $.addStyle('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.0/css/font-awesome.min.css');
     $.addStyle(`
       .swal2-container {
         font-size: 18px;
